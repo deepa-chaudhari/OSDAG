@@ -1,0 +1,32 @@
+
+    <div  class="LOG INFO">
+        <span class="DATE">Tue, 19 Apr 2016 18:25:48</span>
+        <span class="LEVEL">INFO</span>
+        <span class="MSG">feching records from database</span>
+    </div>
+
+    <div  class="LOG INFO">
+        <span class="DATE">Tue, 19 Apr 2016 18:25:50</span>
+        <span class="LEVEL">INFO</span>
+        <span class="MSG">: Overall endplate connection design is safe 
+</span>
+    </div>
+
+    <div  class="LOG DEBUG">
+        <span class="DATE">Tue, 19 Apr 2016 18:25:50</span>
+        <span class="LEVEL">DEBUG</span>
+        <span class="MSG"> :=========End Of design===========</span>
+    </div>
+
+    <div  class="LOG INFO">
+        <span class="DATE">Tue, 19 Apr 2016 18:25:50</span>
+        <span class="LEVEL">INFO</span>
+        <span class="MSG">: Overall endplate connection design is safe 
+</span>
+    </div>
+
+    <div  class="LOG DEBUG">
+        <span class="DATE">Tue, 19 Apr 2016 18:25:50</span>
+        <span class="LEVEL">DEBUG</span>
+        <span class="MSG"> :=========End Of design===========</span>
+    </div>

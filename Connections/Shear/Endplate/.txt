@@ -1,0 +1,2 @@
+Sun, 03 Apr 2016 16:34:22 INFO : Overall endplate connection design is safe 
+Sun, 03 Apr 2016 16:34:22 DEBUG :=========End Of design=========== 

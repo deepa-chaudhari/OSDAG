@@ -1,0 +1,11 @@
+Mon, 04 Apr 2016 14:47:53 INFO feching records from database 
+Mon, 04 Apr 2016 14:47:54 ERROR : Weld thickness is not sufficient [cl. 10.5.7] 
+Mon, 04 Apr 2016 14:47:54 WARNING : Minimum weld thickness is required is 8.00 mm 
+Mon, 04 Apr 2016 14:47:54 INFO : Increase the weld thickness or length of weld/finplate 
+Mon, 04 Apr 2016 14:47:54 ERROR : Design is not safe 
+Mon, 04 Apr 2016 14:47:54 DEBUG :=========End Of design=========== 
+Mon, 04 Apr 2016 14:48:16 ERROR : Weld thickness is not sufficient [cl. 10.5.7] 
+Mon, 04 Apr 2016 14:48:16 WARNING : Minimum weld thickness is required is 8.00 mm 
+Mon, 04 Apr 2016 14:48:16 INFO : Increase the weld thickness or length of weld/finplate 
+Mon, 04 Apr 2016 14:48:16 ERROR : Design is not safe 
+Mon, 04 Apr 2016 14:48:16 DEBUG :=========End Of design=========== 
