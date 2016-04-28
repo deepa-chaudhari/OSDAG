@@ -977,7 +977,7 @@ class MainController(QtGui.QMainWindow):
         This method displaying Design messages(log messages)to textedit widget.
         '''
         
-        afile = QtCore.QFile('./fin.log')
+        afile = QtCore.QFile('Connections/Shear/cleatAngle/fin.log')
         
         if not afile.open(QtCore.QIODevice.ReadOnly):#ReadOnly
             QtGui.QMessageBox.information(None, 'info', afile.errorString())
