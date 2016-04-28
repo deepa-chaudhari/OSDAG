@@ -931,7 +931,7 @@ class MainController(QtGui.QMainWindow):
         This method displaying Design messages(log messages)to textedit widget.
         '''
         
-        afile = QtCore.QFile('./fin.log')
+        afile = QtCore.QFile('Connections/Shear/Endplate/fin.log')
         
         if not afile.open(QtCore.QIODevice.ReadOnly):#ReadOnly
             QtGui.QMessageBox.information(None, 'info', afile.errorString())
@@ -1716,7 +1716,7 @@ def set_osdaglogger():
     logger.setLevel(logging.DEBUG)
  
     # create the logging file handler
-    fh = logging.FileHandler("./fin.log", mode="a")
+    fh = logging.FileHandler("Connections/Shear/Endplate/fin.log", mode="a")
     
     #,datefmt='%a, %d %b %Y %H:%M:%S'
     #formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -1767,7 +1767,7 @@ if __name__ == '__main__':
     formatter = logging.Formatter('''%(message)s''')
     fh.setFormatter(formatter)
     rawLogger.addHandler(fh)
-    rawLogger.info('''<link rel="stylesheet" type="text/css" href="Connections/Shear/Endplate/log.css"/>''')
+    rawLogger.info('''<link rel="stylesheet" type="text/css" href='./log.css"/>''')
 # "Connections/Shear/Finplate/log.css
        
     app = QtGui.QApplication(sys.argv)
